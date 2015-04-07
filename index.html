@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<title>Prueba IAW David</title>
+</head>
+
+<body>
+<h1>Prueba IAW </h1>
+<button id="boton">Pulsar</button>
+<button id="limpiar">Limpiar</button>
+<div id="resultado"></div>
+
+<script src="zepto.js"></script>
+<script src="iaw.js"></script>
+<script>
+$('#boton').click(function() {
+	boton.Pulsar($('#resultado'));
+});
+
+$('#limpiar').click(function() {
+	$('#resultado').html('');
+});
+
+
+</script>
+
+</body>
+</html>
